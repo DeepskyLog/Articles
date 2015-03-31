@@ -1,2 +1,2 @@
 # Articles
-Place to find and write articles for DeepskyLog
+Place to store and write articles for DeepskyLog
