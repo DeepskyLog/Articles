@@ -11,3 +11,5 @@
 | Social Media (Facebook / Twitter / Google+) | WDM |
 | Research of User Experience by JH | WDM |
 | Lack of manpower | All |
+
+Please add presentation to this directory and make a link in `README.md`.
