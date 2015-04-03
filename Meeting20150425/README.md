@@ -2,7 +2,7 @@
 
 | Title | Presenter |
 | ----- | --------- |
-| DeepskyLog 5.0 | WDM |
+| [DeepskyLog 5.0](DeepskyLog 5.0.pdf) | WDM |
 | DeepskyLog Mobile	| DE |
 | Migration to github | WDM |
 | Using Docker | WDM |
