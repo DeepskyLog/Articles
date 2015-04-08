@@ -5,6 +5,7 @@ We will organize a DeepskyLog developer day (location still to be decided, but c
 
 We are looking for:
 * Software developers (php, mysql)
+* Android / iOS app developers
 * Testers
 * Translators (to make DeepskyLog available in different languages)
 * Publicity-people (writing articles, documentation, making movies, ...)
@@ -27,3 +28,12 @@ I think it is clear that you don't need to be a software developer to make some 
 | Lack of manpower | All |
 
 Please add presentations to this directory and make a link in `README.md`.
+
+## List of participants
+
+* WDM
+* JV
+* DE
+* JH (via hangouts / skype)
+* TC
+* BB
