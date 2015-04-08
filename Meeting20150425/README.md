@@ -36,4 +36,4 @@ Please add presentations to this directory and make a link in `README.md`.
 * DE
 * JH (via hangouts / skype)
 * TC (via skype)
-* BB
+* BT
