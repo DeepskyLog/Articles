@@ -17,12 +17,12 @@ I think it is clear that you don't need to be a software developer to make some 
 
 | Title | Presenter |
 | ----- | --------- |
-| DeepskyLog 5.0 | WDM |
-| DeepskyLog Mobile	| DE |
 | Migration to github | WDM |
 | Using Docker | WDM |
-| Documentation | JV |
+| DeepskyLog 5.0 | WDM |
+| DeepskyLog Mobile	| DE |
 | Vela TCS | WDM |	
+| Documentation | JV |
 | Social Media (Facebook / Twitter / Google+) | WDM |
 | Research of User Experience | JH |
 | Lack of manpower, who does what | All |
@@ -35,5 +35,5 @@ Please add presentations to this directory and make a link in `README.md`.
 * JV
 * DE
 * JH (via hangouts / skype)
-* TC
+* TC (via skype)
 * BB
