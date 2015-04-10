@@ -17,9 +17,9 @@ I think it is clear that you don't need to be a software developer to make some 
 | Title | Presenter |
 | ----- | --------- |
 | [DeepskyLog 5.0](DeepskyLog 5.0.pdf) | WDM |
-| [DeepskyLog Mobile](Migration to github.pdf)	| DE |
-| Migration to github | WDM |
-| Using Docker | WDM |
+| DeepskyLog Mobilei | DE |
+| [Migration to github](Migration to github.pdf) | WDM |
+| [Using Docker](Docker.pdf) | WDM |
 | Documentation | JV |
 | Vela TCS | WDM |	
 | Social Media (Facebook / Twitter / Google+) | WDM |
