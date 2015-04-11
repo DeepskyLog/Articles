@@ -23,7 +23,7 @@ I think it is clear that you don't need to be a software developer to make some 
 | DeepskyLog Mobile	| DE |
 | Vela TCS | WDM |	
 | Documentation | JV |
-| Social Media (Facebook / Twitter / Google+) | WDM |
+| [Social Media (Facebook / Twitter / Google+)](Social Media.pdf) | WDM |
 | Research of User Experience | JH |
 | Lack of manpower, who does what | All |
 
