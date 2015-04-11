@@ -17,9 +17,9 @@ I think it is clear that you don't need to be a software developer to make some 
 
 | Title | Presenter |
 | ----- | --------- |
-| Migration to github | WDM |
-| Using Docker | WDM |
-| DeepskyLog 5.0 | WDM |
+| [Migration to github](Migration to github.pdf) | WDM |
+| [Using Docker](Docker.pdf) | WDM |
+| [DeepskyLog 5.0](DeepskyLog 5.0.pdf) | WDM |
 | DeepskyLog Mobile	| DE |
 | Vela TCS | WDM |	
 | Documentation | JV |
@@ -37,3 +37,4 @@ Please add presentations to this directory and make a link in `README.md`.
 * JH (via hangouts / skype)
 * TC (via skype)
 * BT
+* JDW?
