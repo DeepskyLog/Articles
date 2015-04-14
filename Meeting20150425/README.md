@@ -8,10 +8,15 @@ We are looking for:
 * Android / iOS app developers
 * Testers
 * Translators (to make DeepskyLog available in different languages)
-* Publicity-people (writing articles, documentation, making movies, ...)
+* Documentation (writing articles, documentation, making movies, ...)
 * Deep-sky specialists to clean up, check and expand the object database
 
 I think it is clear that you don't need to be a software developer to make some contributions to DeepskyLog. If you are interested in helping, just let me know. It is possible to participate in the meeting using skype or google hangouts.
+
+## Time and location
+
+The DeepskyLog meeting will take place on April 25, starting at 9:00. 
+The meeting will take place in the Van Hoof Room (03.34) of the Institute of Astronomy of the KU Leuven. More information on how to get to the Institute of Astronomy: [http://fys.kuleuven.be/ster/visitors](http://fys.kuleuven.be/ster/visitors)
 
 ## Tentative program
 
