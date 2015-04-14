@@ -24,7 +24,6 @@ I think it is clear that you don't need to be a software developer to make some 
 | [Vela TCS](Vela.pdf) | WDM |	
 | Documentation | JV |
 | [Social Media (Facebook / Twitter / Google+)](Social Media.pdf) | WDM |
-| Research of User Experience | JH |
 | Lack of manpower, who does what | All |
 
 Please add presentations to this directory and make a link in `README.md`.
