@@ -29,7 +29,7 @@ The meeting will take place in the Van Hoof Room (03.34) of the Institute of Ast
 | [Vela TCS](Vela.pdf) | WDM |	
 | Documentation | JV |
 | [Social Media](Social Media.pdf) | WDM |
-| Lack of manpower, who does what | All |
+| [Lack of manpower, who does what](Lack of manpower.pdf) | All |
 
 Please add presentations to this directory and make a link in `README.md`.
 
@@ -39,7 +39,7 @@ Please add presentations to this directory and make a link in `README.md`.
 * JV
 * DE
 * JH? (via hangouts / skype)
-* TC (via skype)
+* TC (partly via skype)
 * BT
 * JDW - Interested in helping, cannot attend meeting
 * EvdJ?
