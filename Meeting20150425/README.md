@@ -28,7 +28,7 @@ The meeting will take place in the Van Hoof Room (03.34) of the Institute of Ast
 | DeepskyLog Mobile	| DE |
 | [Vela TCS](Vela.pdf) | WDM |	
 | Documentation | JV |
-| [Social Media (Facebook / Twitter / Google+)](Social Media.pdf) | WDM |
+| [Social Media](Social Media.pdf) | WDM |
 | Lack of manpower, who does what | All |
 
 Please add presentations to this directory and make a link in `README.md`.
@@ -41,5 +41,5 @@ Please add presentations to this directory and make a link in `README.md`.
 * JH? (via hangouts / skype)
 * TC (via skype)
 * BT
-* JDW?
+* JDW - Interested in helping, cannot attend meeting
 * EvdJ?
