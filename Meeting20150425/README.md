@@ -41,3 +41,4 @@ Please add presentations to this directory and make a link in `README.md`.
 * TC (partly via skype)
 * BT
 * JDW - Interested in helping, cannot attend meeting
+* EvdJ
