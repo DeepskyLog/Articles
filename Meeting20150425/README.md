@@ -42,3 +42,8 @@ Please add presentations to this directory and make a link in `README.md`.
 * BT
 * JDW - Interested in helping, cannot attend meeting
 * EvdJ
+
+## Interested
+
+* AS: Will have a talk later.
+* JH: Will do a research of the user interface.
