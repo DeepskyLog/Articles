@@ -24,12 +24,12 @@ The meeting will take place in the Van Hoof Room (03.34) of the Institute of Ast
 | ----- | --------- |
 | [Migration to github](Migration to github.pdf) | WDM |
 | [Using Docker](Docker.pdf) | WDM |
-| [DeepskyLog 5.0](DeepskyLog 5.0.pdf) | WDM |
 | DeepskyLog Mobile	| DE |
 | [Vela TCS](Vela.pdf) | WDM |	
 | Documentation | JV |
-| [Social Media (Facebook / Twitter / Google+)](Social Media.pdf) | WDM |
-| Lack of manpower, who does what | All |
+| [DeepskyLog 5.0](DeepskyLog 5.0.pdf) | WDM |
+| [Social Media](Social Media.pdf) | WDM |
+| [Lack of manpower, who does what](Lack of manpower.pdf) | All |
 
 Please add presentations to this directory and make a link in `README.md`.
 
@@ -38,8 +38,13 @@ Please add presentations to this directory and make a link in `README.md`.
 * WDM
 * JV
 * DE
-* JH? (via hangouts / skype)
-* TC (via skype)
+* TC (partly via skype)
 * BT
-* JDW?
-* EvdJ?
+* EvdJ
+
+## Interested
+
+* JDW: Interested in helping, cannot attend meeting.
+* AS: Will have a talk on monday.
+* JH: Will do a research of the user interface.
+* CW: Not be able to attend meeting.
