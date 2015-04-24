@@ -2,5 +2,5 @@
 
 | Action Item | Assignee | Due date | Status |
 | ----------- | -------- | -------- | ------ |
-| Create list of Action Items | WDM | 20150425 | [ ] 20150425 |
-|             |          |          | [x] Test |
+| Create list of Action Items | WDM | 20150425 | Done 20150425 |
+|             |          |          |  |
