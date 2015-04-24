@@ -44,7 +44,7 @@ Please add presentations to this directory and make a link in `README.md`.
 
 ## Interested
 
-* JDW - Interested in helping, cannot attend meeting.
+* JDW: Interested in helping, cannot attend meeting.
 * AS: Will have a talk on monday.
 * JH: Will do a research of the user interface.
 * CW: Not be able to attend meeting.
