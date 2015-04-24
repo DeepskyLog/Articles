@@ -40,10 +40,11 @@ Please add presentations to this directory and make a link in `README.md`.
 * DE
 * TC (partly via skype)
 * BT
-* JDW - Interested in helping, cannot attend meeting
 * EvdJ
 
 ## Interested
 
-* AS: Will have a talk later.
+* JDW - Interested in helping, cannot attend meeting.
+* AS: Will have a talk on monday.
 * JH: Will do a research of the user interface.
+* CW: Not be able to attend meeting.
