@@ -18,7 +18,7 @@ I think it is clear that you don't need to be a software developer to make some 
 The DeepskyLog meeting will take place on April 25, starting at 9:00. The meeting should be finished by 12:00.
 The meeting will take place in the Van Hoof Room (03.34) of the Institute of Astronomy of the KU Leuven. More information on how to get to the Institute of Astronomy: [http://fys.kuleuven.be/ster/visitors](http://fys.kuleuven.be/ster/visitors)
 
-## Tentative program
+## Program
 
 | Title | Presenter |
 | ----- | --------- |
