@@ -19,7 +19,7 @@ Excused:
 
 | Action Item | Assignee | Due date | Status |
 | ----------- | -------- | -------- | ------ |
-| Create list of Action Items | WDM | 20150429 |  |
+| Create and mail list of Action Items | WDM | 20150429 | Done 20150426 |
 | Move DeepskyLog to GitHub | WDM | 20150429 |  |
 | Move DeepskyLogMobile to GitHub | WDM | 20150429 | Done 20150425 |
 | Write License file for DeepskyLog on GitHub | WDM | 20150429 | |
@@ -32,6 +32,7 @@ Excused:
 | Create GitHub Account | TC | 20150501 | |
 | Create GitHub Account | JDW | 20150501 | |
 | Create GitHub Account | CW | 20150501 | |
+| Add developers to DeepskyLog organisation on GitHub | WDM | 20150515 | |
 | Send mail when a new object is added during OAL import | WDM | 20150820 | |
 | Make Documentation context specific | JV (Lead) | 20150820 | |
 | Create Movies for Documentation (example: Sketchup movies) | JV (Lead) | 20150820 | |
