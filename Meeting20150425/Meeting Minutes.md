@@ -20,8 +20,11 @@ Excused:
 | Action Item | Assignee | Due date | Status |
 | ----------- | -------- | -------- | ------ |
 | Create and mail list of Action Items | WDM | 20150429 | Done 20150426 |
-| Move DeepskyLog to GitHub | WDM | 20150429 |  |
+| Move DeepskyLog to GitHub | WDM | 20150429 | 20150426 |
 | Move DeepskyLogMobile to GitHub | WDM | 20150429 | Done 20150425 |
+| Add new DeepskyLog logo to twitter | WDM | 20150501 | |
+| Add new DeepskyLog logo to facebook | WDM | 20150501 | |
+| Add new DeepskyLog logo to google+ | WDM | 20150501 | |
 | Write License file for DeepskyLog on GitHub | WDM | 20150429 | |
 | Move Redmine Issues to GitHub | WDM | 20150429 | |
 | Move Redmine Wiki Documentation to GitHub | JV | 20150601 | |
