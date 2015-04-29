@@ -43,14 +43,14 @@ Excused:
 | Log table in database: Automatically remove everything older than 1 year | WDM | 20150820 | |
 | Make issue to be able to download all observations with drawings (as zip) at once | WDM | 20150515 | |
 | Clean up developer mailing list | WDM | 20150501 | Done 20150428 |
-| Create admin account on DeepskyLog | TC | 20150503 | |
+| Create admin account on DeepskyLog | TC | 20150503 | Done 20150429 |
 | Create admin account on DeepskyLog | BT | 20150503 | |
 | Release DeepskyLog 5.0 at Starnights | WDM (Lead) | 20150820 | |
 | Open feedback forum on Astroforum.nl | TC | 20150515 | |
 | Add classes for own observations | WDM | Create issue now, implement after release of 5.0 | |
 | Add tonight's best to entry page | WDM | Create issue now, implement after release of 5.0 | |
 | Add milestones also as message in DeepskyLog | Lead of communication | | |
-| Contact moderators of Astroforum to make DeepskyLog more visible. | TC | 20150715 | |
+| Contact moderators of Astroforum to make DeepskyLog more visible. | TC | 20150715 | 20150429 Moderators contacted |
 | Send mail with database problems to EvdJ | WDM | 20150501 | Done 20150426 |
 | Fix database problems of GvdB | EvdJ | 20150503 | |
 | Fill out form / lead with tasks for DeepskyLog | BT | 20150503 | |
