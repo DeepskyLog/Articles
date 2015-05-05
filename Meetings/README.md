@@ -1,3 +1,3 @@
 # Meetings
 
-+ [20150425](Meeting 20150425: Leuven)
++ [20150425: Leuven](Meeting 20150425)
