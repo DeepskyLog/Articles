@@ -56,7 +56,7 @@ Excused:
 | Fill out form / lead with tasks for DeepskyLog | BT | 20150503 | Done 20150504 |
 | Fill out form / lead with tasks for DeepskyLog | EvdJ | 20150503 | Done 20150503 |
 | Fill out form / lead with tasks for DeepskyLog | DE | 20150503 | Done 20150429 |
-| Fill out form / lead with tasks for DeepskyLog | JV | 20150503 | |
+| Fill out form / lead with tasks for DeepskyLog | JV | 20150503 | Done 20150505 |
 | Fill out form / lead with tasks for DeepskyLog | TC | 20150503 | Done 20150429 |
 | Fill out form / lead with tasks for DeepskyLog | CW | 20150503 | Done 20150430 |
 | Fill out form / lead with tasks for DeepskyLog | JDW | 20150503 | Done 20150429 |
