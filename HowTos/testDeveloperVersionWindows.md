@@ -12,3 +12,12 @@ This document describes how to set up your environment to be able to test the de
 ![](GitHub3.png)
 + Click on the 'Plus' sign at the left top side of the window. Select 'Clone'.
 ![](GitHub4.png)
++ Select DeepskyLog / DeepskyLog
+![](GitHub5.png)
++ You will see that the DeepskyLog repository is being cloned.
+![](GitHub6.png)
++ You will see the History of the DeepskyLog commits. Click on the 'Plus' sign again.
+![](GitHub7.png)
++ Clone DeepskyLog / Docker
+![](GitHub8.png)
+
