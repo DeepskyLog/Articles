@@ -137,3 +137,19 @@ In Eclipse, copy `DeepskyLog/lib/setup/databaseInfo.php.dist` to `databaseInfo.p
 + You will see `branch: master`.
 
 ![](pullrequest1.png)
+
++ Click this button and select the branch you have used for your development. You will see something like this:
+
+![](pullrequest2.png)
+
++ Click `Pull Request`. Add a title describing what this does:
+
+![](pullrequest3.png)
+
++ Click `Create pull request`.
+
+### Next steps
+
++ Before working on a new issue, switch back to the `master` branch in Eclipse. 
++ Pull all changes so that you work against a recent version of DeepskyLog. Right click `DeepskyLog` in the `PHP Explorer`. Select `Team`-`Synchronize Workspace`.
++ Now you can start all over. First, create a new branch.
