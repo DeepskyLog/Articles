@@ -2,6 +2,8 @@
 
 This document describes how to set up your environment to be able to test the developer version of DeepskyLog locally on your Windows computer.
 
+## Downloading the sourcecode
+
 + Download and install the GitHub software: https://windows.github.com/
 + Start the GitHub software
 + Go to the Options page (the wheel at the right top side of the window)
@@ -21,3 +23,38 @@ This document describes how to set up your environment to be able to test the de
 + Clone DeepskyLog / Docker
 ![](GitHub8.png)
 
+## Setting up the test environment
+
++ Download and install boot2docker. In the install options, also install VirtualBox: https://github.com/boot2docker/windows-installer/releases
++ Start up boot2docker
+
+## Making the mysql Data Volume container
++ Switch to the directory with the Docker source code:
+`cd Documents\GitHub\Docker\`
++ Make the container:
+`docker build -t="mysql:v5.0" mysql-container`
+
+## Run the Data Volume container
+`docker run -d --name mysql mysql:v5.0 tail -f /dev/null`
+
+## Making the DeepskyLog container
+`docker build -t deepskylog:v5.0 .`
+
+## Running the DeepskyLog container
+`docker run -v \Users\wim\Documents\GitHub\DeepskyLog\:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
+
+Change `\Users\wim\Documents\GitHub\DeepskyLog\` with the location of the DeepskyLog source code. If you used the default settings of the GitHub client, you will only need to change the username.
+
+## Find out the IP address of the webserver for DeepskyLog
+* `boot2docker.exe ip`
+
+## Make DeepskyLog work with the docker containers
+
+In `Documents\GitHub\DeepskyLog\lib\setup\`, copy the file `databaseInfo.php.dist` to `databaseInfo.php` and enter the correct ip address in the following line:
+
+`$baseURL      = "http://192.168.59.103/";`
+
+## Test DeepskyLog
+
++ You can now test the developer version of DeepskyLog in your browser. Point to the IP address you used in the steps above: http://192.168.59.103/.
+= Make sure to update the source code of DeepskyLog once in a while. To do this, start up your GitHub client, select DeepskyLog and click 'Sync' (at the top right).
