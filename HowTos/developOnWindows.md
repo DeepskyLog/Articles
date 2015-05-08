@@ -3,13 +3,12 @@
 ## Install eclipse
 
 + Download eclipse from [](http:/eclipse.org/downloads/) http://eclipse.org/downloads/. Select 'Eclipse for PHP developers'.
-+ Double click the tar-ball to decompress the downloaded file.
-+ Copy the eclipse directory to the Application folder.
++ Install eclipse.
 
 ## Setting up eclipse
 
 + Start eclipse.
-+ Select a location for your Workspace. The standard location is `/Users/wim/Documents/workspace/`.
++ Select a location for your Workspace.
 
 ### Install GitHub plugin
 + First update your eclipse. Select `Help`-`Check for Updates`. It is important to have all the latest updates, because without these updates, the needed plugins cannot be installed. Restart eclipse after the updates are installed.
@@ -36,11 +35,11 @@
 + Select `Clone URI`.
 + Enter the link tou your personal GitHub fork of DeepskyLog. For example: `https://github.com/ChrisWauters/DeepskyLog/`. Also enter your GitHub Username and Password. Click `Next`. 
 + Select the master branch and click `Next` again.
-+ Keep the proposed location where to store the sourcecode (`/Users/wim/git/DeepskyLog`) and click Next.
++ Select a location where to store the sourcecode (for example `\Users\wim\git\DeepskyLog`) and click Next.
 + Select `Import using the New Project wizard` and select `Finish`.
 + Select `PHP project`.
 + Enter a project name, for example `DeepskyLog`.
-+ Select `Create project at existing location (from existing source)`. Enter the directory where the source code is: `/Users/wim/git/DeepskyLog/`.
++ Select `Create project at existing location (from existing source)`. Enter the directory where the source code is: `\Users\wim\git\DeepskyLog\`.
 + Click `Finish`.
 
 
@@ -57,34 +56,28 @@
 
 ### Downloading the sourcecode
 
-+ Download and install the GitHub software: https://mac.github.com/
-+ Start the GitHub software.
-![](GitHubMac1.png)
-+ Enter your GitHub user name and password and Sign in.
-![](GitHubMac2.png)
-+ Configure git. Enter your name and mailaddress.
-![](GitHubMac3.png)
-+ Click next on the page with the local repositories.
-![](GitHubMac4.png)
-+ Click on the 'Plus' sign at the left top side of the window.
-![](GitHubMac5.png)
-+ Select 'Clone'.
-![](GitHubMac6.png)
++ Download and install the GitHub software: https://windows.github.com/
++ Start the GitHub software
++ Go to the Options page (the wheel at the right top side of the window)
++ Click 'Add Account'
+![](Github1.png)
++ Enter your credentials and click 'Log In'
+![](GitHub2.png)
++ Click on the 'Plus' sign at the left top side of the window. Select 'Clone'.
+![](GitHub3.png)
 + Clone DeepskyLog / Docker
-![](GitHubMac7.png)
-+ Select the directory where you want to have the Docker source code cloned.
-![](GitHubMac8.png)
+![](GitHub7.png)
 + You will see that the Docker repository is being cloned.
-![](GitHubMac9.png)
+![](GitHub8.png)
 
 ### Setting up the test environment
 
-+ Download and install boot2docker: https://github.com/boot2docker/osx-installer/releases
-+ Start up boot2docker.
++ Download and install boot2docker. In the install options, also select VirtualBox: https://github.com/boot2docker/windows-installer/releases
++ Start up boot2docker (by Double clicking the icon on the Desktop)
 
 ### Making the mysql Data Volume container
 + Switch to the directory with the Docker source code:
-`cd Docker`
+`cd Documents\GitHub\Docker\`
 + Make the container:
 `docker build -t="mysql:v5.0" mysql-container`
 
@@ -96,9 +89,9 @@
 This will take a long time, so be patient. It only has to executed one time, so this is not problematic.
 
 ### Running the DeepskyLog container
-`docker run -v /Users/wim/git/DeepskyLog/:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
+`docker run -v \Users\wim\Documents\GitHub\DeepskyLog\:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
 
-Change `/Users/wim/git/DeepskyLog/` with the location of the DeepskyLog source code. 
+Change `\Users\wim\Documents\GitHub\DeepskyLog\` with the location of the DeepskyLog source code.
 
 ### Find out the IP address of the webserver for DeepskyLog
 `boot2docker ip`
@@ -112,7 +105,7 @@ In Eclipse, copy `DeepskyLog/lib/setup/databaseInfo.php.dist` to `databaseInfo.p
 ## Test DeepskyLog
 
 + Before you can run DeepskyLog locally on your Windows machine, make sure that you startup `boot2docker` and start up the docker container for DeepskyLog: 
-`docker run -v /Users/wim/DeepskyLog/:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
+`docker run -v \Users\wim\Documents\GitHub\DeepskyLog\:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
 + You can now test the developer version of DeepskyLog in your browser. Point to the IP address you used in the steps above: http://192.168.59.103/.
 + Make sure to update the source code of DeepskyLog once in a while. To do this, right click `DeepskyLog` in the `PHP Explorer` of eclipse and select `Team`-`Synchronize`..
 
