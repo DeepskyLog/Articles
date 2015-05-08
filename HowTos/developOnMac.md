@@ -31,3 +31,24 @@
 
 ![](/lhome/wim/Documents/Astronomy/DeepskyLog/Articles/HowTos/fork2.png) 
 
++ In eclipse, select `File`-`Import`.
++ Select `Projects from Git`.
++ Select `Clone URI`.
++ Enter the link tou your personal GitHub fork of DeepskyLog. For example: `https://github.com/ChrisWauters/DeepskyLog/`. Also enter your GitHub Username and Password. Click `Next`. 
++ Select the master branch and click `Next` again.
++ Keep the proposed location where to store the sourcecode (`~/git/DeepskyLog`) and click Next.
++ Select `Import using the New Project wizard` and select `Finish`.
++ Select `PHP project`.
++ Enter a project name, for example `DeepskyLog`.
+
+
+### Add GitHub Task List in eclipse
++ Select `Window`-`Show View`-`Other...`. Select `Task Repositories`.
++ Right click in the `Task Repositories` view and select `Add Task Repository...`.
++ Select `GitHub Issues`.
++ Enter `https://github.com/DeepskyLog/DeepskyLog/` in the Server field. Also add your GitHub User ID and password. Press `Finish`.
++ You will get the question: `Would you like to add a query to the Task List for this repository?`. Answer `Yes`.
++ Enter the title `Open Issues`. Click `Finish`.
++ To view the Issues, select `Window`-`Show View`-`Task List`.
+
+
