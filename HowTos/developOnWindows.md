@@ -1,4 +1,4 @@
-# Setting up the development environment on a Mac.
+# Setting up the development environment on Windows.
 
 ## Install eclipse
 
