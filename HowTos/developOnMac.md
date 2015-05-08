@@ -21,3 +21,13 @@
 + Enter `http://download.eclipse.org/egit/github/updates/` in the 'Work with' field.
 + Select `Collaboration` and click `Next` to install the GitHub plugins.
 + Restart Eclipse after the installation of the plugins.
+
+### Download the DeepskyLog sourcecode
++ First make sure to fork DeepskyLog in GitHub. In your browser, go to `https://github.com/DeepskyLog/DeepskyLog/` and click the fork button.
+
+![](/lhome/wim/Documents/Astronomy/DeepskyLog/Articles/HowTos/fork1.png) 
+
++ You will be asked where to fork this repository. Select your own account (for example ChrisWauters).
+
+![](/lhome/wim/Documents/Astronomy/DeepskyLog/Articles/HowTos/fork2.png) 
+
