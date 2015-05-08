@@ -151,5 +151,21 @@ In Eclipse, copy `DeepskyLog/lib/setup/databaseInfo.php.dist` to `databaseInfo.p
 ### Next steps
 
 + Before working on a new issue, switch back to the `master` branch in Eclipse. 
-+ Pull all changes so that you work against a recent version of DeepskyLog. Right click `DeepskyLog` in the `PHP Explorer`. Select `Team`-`Synchronize Workspace`.
-+ Now you can start all over. First, create a new branch.
++ In your local GitHub repository (https://github.com/ChrisWauters/DeepskyLog), you can see if your master is in sync with the real DeepskyLog master. You will see something like this:
+
+![](pullrequest4.png)
+
+If you see `This branch is x commits behind DeepskyLog:master`, you will need to pull the changes from DeepskyLog/DeepskyLog to your own repository.
++ Click `Pull request`.
++ Click `Try switching the base`
++ You will see the changes, something like this:
+
+![](pullrequest5.png)
+
++ Click `Pull request`.
++ Add a title, for example: `Bringing up to date with master`.
++ Press `Create pull request`.
++ Press `Merge pull request`.
++ Press `Confirm merge`. 
++ Pull all changes so that you work against a recent version of DeepskyLog. Right click `DeepskyLog` in the `PHP Explorer`. Select `Team`-`Pull`.
++ Now you can start all over. First, create a new branch and start developing.
