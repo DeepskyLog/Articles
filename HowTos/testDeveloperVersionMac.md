@@ -33,7 +33,7 @@ This document describes how to set up your environment to be able to test the de
 
 ## Setting up the test environment
 
-+ Download and install boot2docker. In the install options, also select VirtualBox: https://github.com/boot2docker/osx-installer/releases
++ Download and install boot2docker: https://github.com/boot2docker/osx-installer/releases
 + Start up boot2docker.
 
 ## Making the mysql Data Volume container
