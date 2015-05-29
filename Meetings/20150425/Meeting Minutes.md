@@ -32,10 +32,10 @@ Excused:
 | Create GitHub Account | JV | 20150501 | Done 20150425 |
 | Create GitHub Account | BT | 20150503 | Done 20150502 |
 | Create GitHub Account | EvdJ | 20150503 | Done 20150503 |
-| Create GitHub Account | TC | 20150503 | |
+| Create GitHub Account | TC | 20150503 | Done 20150528 |
 | Create GitHub Account | JDW | 20150503 | Done 20150516 |
 | Create GitHub Account | CW | 20150503 | Done 20150430 |
-| Add developers to DeepskyLog organisation on GitHub | WDM | 20150515 | |
+| Add developers to DeepskyLog organisation on GitHub | WDM | 20150515 | Done 20150529 |
 | Send mail when a new object is added during OAL import | WDM | 20150820 | Issue #316 raised on 20150509 |
 | Make Documentation context specific | JV (Lead) | 20150820 | |
 | Create Movies for Documentation (example: Sketchup movies) | JV (Lead) | 20150820 | |
