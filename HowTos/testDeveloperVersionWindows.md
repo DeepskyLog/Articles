@@ -40,6 +40,7 @@ This document describes how to set up your environment to be able to test the de
 
 ## Making the DeepskyLog container
 `docker build -t deepskylog:v5.0 .`
+This will take a long time, so be patient. It only has to executed one time, so this is not problematic.
 
 ## Running the DeepskyLog container
 `docker run -v \Users\wim\Documents\GitHub\DeepskyLog\:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
