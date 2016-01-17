@@ -39,6 +39,7 @@
   + https://github.com/DeepskyLog/DeepskyLog/wiki/Handleiding
 
 #### Status Deepsky database
++ See https://github.com/DeepskyLog/Documents/blob/master/Meetings/20151121/DSL%20database.pdf
 
 #### Status popularisation
 + We need to write some articles on DeepskyLog 5.0.
