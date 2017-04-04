@@ -12,6 +12,9 @@
 
 #### Status Documentation
 
++ Use gitbook? See https://www.gitbook.com/book/wimdemeester/deepskylog/welcome
++ Use gitbook editor: See https://www.gitbook.com/editor/
+
 #### Status Deepsky database
 
 #### Status popularisation
