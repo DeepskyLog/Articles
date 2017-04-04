@@ -72,10 +72,10 @@
 
 ### Setting up the test environment
 
-+ Download and install Docker Toolbox. In the install options, also select VirtualBox: https://www.docker.com/toolbox
-+ Start up Docker Quickstart Terminal (by Double clicking the icon on the Desktop)
++ Download and install Docker from https://store.docker.com/editions/community/docker-ce-desktop-windows?tab=description
 
 ### Making the mysql Data Volume container
++ Open the command prompt
 + Switch to the directory with the Docker source code:
 `cd Documents\GitHub\Docker\`
 + Make the container:
@@ -85,28 +85,24 @@
 `docker run -d --name mysql mysql:v5.0 tail -f /dev/null`
 
 ### Making the DeepskyLog container
-`docker build -t deepskylog:v5.0 .`
++ We first need to convert the startServices.sh file to windows encoding. Download dos2unix from https://sourceforge.net/projects/dos2unix/files/latest/download and install it.
+`dos2unix startServices.sh`
++ `docker build -t deepskylog:v5.0 .`
 This will take a long time, so be patient. It only has to executed one time, so this is not problematic.
 
 ### Running the DeepskyLog container
-`docker run -v \Users\wim\Documents\GitHub\DeepskyLog\:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
++ `docker run -v //c/Users/wim/Documents/GitHub/DeepskyLog/:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
 
-Change `\Users\wim\Documents\GitHub\DeepskyLog\` with the location of the DeepskyLog source code.
-
-### Find out the IP address of the webserver for DeepskyLog
-`docker-machine ip default`
+Change `//c/Users/wim/Documents/GitHub/DeepskyLog/` with the location of the DeepskyLog source code.
 
 ### Make DeepskyLog work with the docker containers
-
-In Eclipse, copy `DeepskyLog/lib/setup/databaseInfo.php.dist` to `databaseInfo.php` and enter the correct ip address in the following line:
-
-`$baseURL      = "http://192.168.99.100/";`
+In Eclipse, copy `DeepskyLog/lib/setup/databaseInfo.php.dist` to `databaseInfo.php.
 
 ## Test DeepskyLog
 
 + Before you can run DeepskyLog locally on your Windows machine, make sure that you startup `boot2docker` and start up the docker container for DeepskyLog:
-`docker run -v \Users\wim\Documents\GitHub\DeepskyLog\:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
-+ You can now test the developer version of DeepskyLog in your browser. Point to the IP address you used in the steps above: http://192.168.99.100/.
+`docker run -v //c/Users/wim/Documents/GitHub/DeepskyLog/:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
++ You can now test the developer version of DeepskyLog in your browser. Point to the IP address: http://localhost/.
 + Make sure to update the source code of DeepskyLog once in a while. To do this, right click `DeepskyLog` in the `PHP Explorer` of eclipse and select `Team`-`Synchronize`..
 
 ## Develop for DeepskyLog
