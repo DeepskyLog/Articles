@@ -89,9 +89,9 @@
 This will take a long time, so be patient. It only has to executed one time, so this is not problematic.
 
 ### Running the DeepskyLog container
-`docker run -v \Users\wim\Documents\GitHub\DeepskyLog\:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
+`docker run -v //c/Users/wim/Documents/GitHub/DeepskyLog/:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
 
-Change `\Users\wim\Documents\GitHub\DeepskyLog\` with the location of the DeepskyLog source code.
+Change `//c/Users/wim/Documents/GitHub/DeepskyLog/` with the location of the DeepskyLog source code.
 
 ### Find out the IP address of the webserver for DeepskyLog
 `docker-machine ip default`
@@ -105,7 +105,7 @@ In Eclipse, copy `DeepskyLog/lib/setup/databaseInfo.php.dist` to `databaseInfo.p
 ## Test DeepskyLog
 
 + Before you can run DeepskyLog locally on your Windows machine, make sure that you startup `boot2docker` and start up the docker container for DeepskyLog:
-`docker run -v \Users\wim\Documents\GitHub\DeepskyLog\:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
+`docker run -v //c/Users/wim/Documents/GitHub/DeepskyLog/:/var/www/html --volumes-from mysql -t -p 80:80 -p 3306:3306 deepskylog:v5.0`
 + You can now test the developer version of DeepskyLog in your browser. Point to the IP address you used in the steps above: http://192.168.99.100/.
 + Make sure to update the source code of DeepskyLog once in a while. To do this, right click `DeepskyLog` in the `PHP Explorer` of eclipse and select `Team`-`Synchronize`..
 
